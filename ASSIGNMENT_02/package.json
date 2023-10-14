@@ -1,0 +1,30 @@
+{
+  "name": "assignment_02",
+  "version": "1.0.0",
+  "description": "igniting our app",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krakn-kr/NAMASTE-REACT-ASSIGNMENTS.git"
+  },
+  "author": "krakn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krakn-kr/NAMASTE-REACT-ASSIGNMENTS/issues"
+  },
+  "homepage": "https://github.com/krakn-kr/NAMASTE-REACT-ASSIGNMENTS#readme",
+  "dependencies": {
+    "browserslist": "^4.22.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}
