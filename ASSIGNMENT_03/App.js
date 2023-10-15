@@ -8,12 +8,34 @@ const Title = () => {
     </h1>
   );
 };
+const Logo = () => {
+  return (
+    <div className="left">
+      <img className="logo" src={require("./assets/logo.png")} />
+    </div>
+  );
+};
+const SearchBar = () => {
+  return (
+    <div className="search center">
+      <input placeholder="search samantha" />
+      <img src={require("./assets/search.svg")} />
+    </div>
+  );
+};
+const User = () => {
+  return (
+    <div className="user right">
+      <img src={require("./assets/person.svg")} />
+    </div>
+  );
+};
 const HeaderComponent = () => {
   return (
-    <div>
-      <Title />
-      <h1>This is react functional component</h1>
-      <h2>This is h2 tag</h2>
+    <div className="header">
+      <Logo />
+      <SearchBar />
+      <User />
     </div>
   );
 };
